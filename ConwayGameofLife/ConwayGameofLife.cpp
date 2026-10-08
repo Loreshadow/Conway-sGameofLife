@@ -2,10 +2,24 @@
 //
 
 #include <iostream>
+#include <Windows.h>
+#include <vector>
+
+// check des voisins dans toutes les direction
+
+//
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	std::vector<int> currentArray;
+	std::vector<int> currentArray;
+	SetConsoleOutputCP(65001);
+
+	std::cout << "■";
+	std::cout << "□";
+
+	return 0;
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
